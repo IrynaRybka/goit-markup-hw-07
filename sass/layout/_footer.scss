@@ -1,0 +1,57 @@
+/* футер */
+.site-bottom {
+    background-color: var(--bk-cl-darkgray);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.site-bottom__element {
+    margin-bottom: 9px;
+}
+
+.site-bottom__element:last-child {
+    margin-bottom: 0;
+}
+
+.site-bottom__adress {
+    text-decoration: none;
+    line-height: 1.71;
+    color: var(--hover-txt-btn);
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.site-bottom__adress:hover,
+.site-bottom__adress:focus {
+    color: var(--base-blue-color);
+
+}
+
+.site-bottom__email,
+.site-bottom__tel {
+    text-decoration: none;
+    color: var(--txt-gray-color);
+    line-height: 1.71;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.site-bottom__email:hover,
+.site-bottom__tel:hover,
+.site-bottom__email:focus,
+.site-bottom__tel:focus {
+    color: var(--base-blue-color);
+}
+
+.site-bottom__container {
+    display: flex;
+    align-items: baseline;
+}
+
+.site-bottom__social {
+    margin-left: 70px;
+}
