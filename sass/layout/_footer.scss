@@ -3,55 +3,59 @@
     background-color: var(--bk-cl-darkgray);
     padding-top: 60px;
     padding-bottom: 60px;
-}
 
-.site-bottom__element {
-    margin-bottom: 9px;
-}
 
-.site-bottom__element:last-child {
-    margin-bottom: 0;
-}
+    &__element {
+        margin-bottom: 9px;
+    }
 
-.site-bottom__adress {
-    text-decoration: none;
-    line-height: 1.71;
-    color: var(--hover-txt-btn);
+    &__element:last-child {
+        margin-bottom: 0;
+    }
 
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+    &__adress {
+        text-decoration: none;
+        line-height: 1.71;
+        color: var(--hover-txt-btn);
 
-.site-bottom__adress:hover,
-.site-bottom__adress:focus {
-    color: var(--base-blue-color);
+        transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
 
-}
+    &__adress:hover,
+    &__adress:focus {
+        color: var(--base-blue-color);
 
-.site-bottom__email,
-.site-bottom__tel {
-    text-decoration: none;
-    color: var(--txt-gray-color);
-    line-height: 1.71;
+    }
 
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+    &__email,
+    &__tel {
+        text-decoration: none;
+        color: var(--txt-gray-color);
+        line-height: 1.71;
 
-.site-bottom__email:hover,
-.site-bottom__tel:hover,
-.site-bottom__email:focus,
-.site-bottom__tel:focus {
-    color: var(--base-blue-color);
-}
+        transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
 
-.site-bottom__container {
-    display: flex;
-    align-items: baseline;
-}
+    &__email:hover,
+    &__tel:hover,
+    &__email:focus,
+    &__tel:focus {
+        color: var(--base-blue-color);
+    }
 
-.site-bottom__social {
-    margin-left: 70px;
+    &__container {
+        display: flex;
+        align-items: baseline;
+    }
+
+    &__social {
+        margin-left: 70px;
+    }
+    &__form {
+        margin-left: 93px;
+    }
 }

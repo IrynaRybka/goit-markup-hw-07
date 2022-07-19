@@ -65,4 +65,32 @@
     
     }
     
+    &__modal-push {
+        display: block;
+        width: 200px;
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    
+        background-color: var(--base-blue-color);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    
+        color: var(--hover-txt-btn);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.06em;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    &__modal-push:hover,
+    &__modal-push:focus {
+            background-color: var(--bk-hat-blue);
+    }
+    
 }
+
