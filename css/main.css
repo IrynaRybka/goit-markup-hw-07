@@ -215,6 +215,20 @@ address {
   border-radius: 2px;
 }
 
+.list__menu .current {
+  color: var(--base-blue-color);
+}
+.list__menu .current::after {
+  position: absolute;
+  bottom: -1px;
+  content: "";
+  width: 100%;
+  height: 4px;
+  display: block;
+  background-color: var(--base-blue-color);
+  border-radius: 2px;
+}
+
 /* список контакты и email */
 .list__email, .list__tel {
   color: var(--txt-gray-color);
@@ -620,10 +634,7 @@ address {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.site-top__studio:hover, .site-top__portfolio:hover, .site-top__contacts:hover {
-  color: var(--base-blue-color);
-}
-.site-top__studio:focus, .site-top__portfolio:focus, .site-top__contacts:focus {
+.site-top__studio:hover, .site-top__portfolio:hover, .site-top__contacts:hover, .site-top__studio:focus, .site-top__portfolio:focus, .site-top__contacts:focus {
   color: var(--base-blue-color);
 }
 .site-top__element {

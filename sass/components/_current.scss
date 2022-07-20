@@ -13,3 +13,6 @@
     border-radius: 2px;
   }
 }
+.list__menu .current {
+  @include current;
+}

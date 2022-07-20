@@ -44,20 +44,17 @@
         transition-property:color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        
     }
+           
     &__studio:hover, 
     &__portfolio:hover, 
-    &__contacts:hover {
-        color: var(--base-blue-color);    
-    }
+    &__contacts:hover,
     &__studio:focus, 
     &__portfolio:focus, 
     &__contacts:focus {
-        color: var(--base-blue-color);
+        color: var(--base-blue-color); 
     }
-
-
+    
     &__element {
         position: relative;
     }
